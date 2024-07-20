@@ -40,35 +40,11 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/me-lier/Medical-Imaging.git
    cd medical-imaging-analysis
-2. **Create and activate a virtual environment
-   '''bash
-   python -m venv env
-   source env/bin/activate
-   Install the required dependencies
-
-   '''bash
-   pip install -r requirements.txt
-3. **Usage
-   To use the tools provided in this repository:
-
-**Pneumonia Detection
-'''bash
-python pneumonia_detection.py --image path_to_chest_xray_image
-Brain Tumor Prediction
-
-'''bash
-python brain_tumor_prediction.py --image path_to_mri_scan
-Skin Infection Detection
-
-'''bash
-python skin_infection_detection.py --image path_to_dermatological_image
-Dataset
-**The models are trained on publicly available datasets:
-
-Pneumonia Detection: Chest X-ray dataset
-Brain Tumor Prediction: Brain MRI dataset
-Skin Infection Detection: Dermatology dataset
-Model Architecture
+## Datasets
+      Pneumonia Detection: Chest X-ray dataset
+      Brain Tumor Prediction: Brain MRI dataset
+      Skin Infection Detection: Dermatology dataset
+      Model Architecture
 The models are built using convolutional neural networks (CNNs) with architectures tailored for each specific task. Detailed descriptions of the models and their architectures can be found in the respective Python scripts.
 
 Results
