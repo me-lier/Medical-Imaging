@@ -43,7 +43,7 @@ To run this project locally, follow these steps:
 ## Datasets
       Pneumonia Detection: Chest X-ray dataset
       Brain Tumor Prediction: Brain MRI dataset
-      Skin Infection Detection: Dermatology dataset
+      Skin Infection Detection: Acne dataset
       Model Architecture
 The models are built using convolutional neural networks (CNNs) with architectures tailored for each specific task. Detailed descriptions of the models and their architectures can be found in the respective Python scripts.
 
