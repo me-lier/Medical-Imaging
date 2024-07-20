@@ -1,6 +1,6 @@
 # Medical Imaging Analysis
 
-![Medical Imaging](path_to_some_image.png)
+![Medical Imaging](https://cdn.pixabay.com/photo/2024/07/08/16/28/ai-generated-8881550_640.jpg)
 
 This repository contains a suite of AI-powered tools for analyzing medical images to assist in the diagnosis of various conditions. Specifically, it focuses on:
 
