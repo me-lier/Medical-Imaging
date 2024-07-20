@@ -38,7 +38,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/medical-imaging-analysis.git
+   git clone https://github.com/me-lier/Medical-Imaging.git
    cd medical-imaging-analysis
 2. **Create and activate a virtual environment
    '''bash
