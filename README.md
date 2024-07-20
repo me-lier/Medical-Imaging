@@ -40,37 +40,30 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/yourusername/medical-imaging-analysis.git
    cd medical-imaging-analysis
-Create and activate a virtual environment
+2. **Create and activate a virtual environment
+   '''bash
+   python -m venv env
+   source env/bin/activate
+   Install the required dependencies
 
-bash
-Copy code
-python -m venv env
-source env/bin/activate
-Install the required dependencies
+   '''bash
+   pip install -r requirements.txt
+3. **Usage
+   To use the tools provided in this repository:
 
-bash
-Copy code
-pip install -r requirements.txt
-Usage
-To use the tools provided in this repository:
-
-Pneumonia Detection
-
-bash
-Copy code
+**Pneumonia Detection
+'''bash
 python pneumonia_detection.py --image path_to_chest_xray_image
 Brain Tumor Prediction
 
-bash
-Copy code
+'''bash
 python brain_tumor_prediction.py --image path_to_mri_scan
 Skin Infection Detection
 
-bash
-Copy code
+'''bash
 python skin_infection_detection.py --image path_to_dermatological_image
 Dataset
-The models are trained on publicly available datasets:
+**The models are trained on publicly available datasets:
 
 Pneumonia Detection: Chest X-ray dataset
 Brain Tumor Prediction: Brain MRI dataset
